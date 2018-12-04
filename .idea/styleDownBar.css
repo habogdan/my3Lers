@@ -1,0 +1,37 @@
+.big-img{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.big-img-zone-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.big-img-list1-up{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-img-list1-down{
+    list-style-type: none;
+    display: flex;
+}
+
+.big-img-zone-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.big-img-list2-up{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-img-list2-down{
+    list-style-type: none;
+    display: flex;
+}

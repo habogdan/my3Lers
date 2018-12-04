@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.down_portion{
+    display: flex;
+    justify-content: space-around;
+}
