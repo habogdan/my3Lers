@@ -1,7 +1,8 @@
+
+/*BID IMG */
 .big-img{
     display: flex;
     flex-direction: row;
-    padding: 30px;
 }
 
 .big-img-zone-left{
@@ -34,4 +35,27 @@
 .big-img-list2-down{
     list-style-type: none;
     display: flex;
+}
+
+/*TOP NEWS */
+.top-news{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles-news{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.article-text{
+    display: flex;
+    flex-direction: column;
 }
