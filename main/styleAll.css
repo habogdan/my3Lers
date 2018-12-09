@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.down_portion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.left-img-news{
+    display: flex;
+    flex-direction: column;
+}
