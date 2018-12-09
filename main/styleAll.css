@@ -2,21 +2,29 @@ body {
     margin: 0;
     padding: 0;
     background: white;
+
 }
 
 .all{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
 }
+.big-img{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 8em;
+
+}
+
 .down_portion{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
+    margin-left: 9em;
+    margin-right: 9em;
+    margin-bottom: 10em;
 }
 
-.left-img-news{
-    display: flex;
-    flex-direction: column;
-}

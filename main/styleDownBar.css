@@ -1,6 +1,5 @@
-
 /*BID IMG */
-.big-img{
+.big-img-parts{
     display: flex;
     flex-direction: row;
 }
@@ -30,6 +29,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    margin-bottom: 4px;
 }
 
 .big-img-list2-down{
@@ -37,25 +37,115 @@
     display: flex;
 }
 
-/*TOP NEWS */
-.top-news{
-    display: flex;
-    flex-direction: column;
+.first-img{
+    position: relative;
+}
+.second-img{
+    position: relative;
+}
+.third-img{
+    position: relative;
+}
+.fourth-img{
+    position: relative;
 }
 
-.articles-news{
-    display: flex;
-    flex-direction: column;
+.text-img{
+    position: absolute;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+    display: block;
+    text-decoration: none;
+}
+
+/*TOP NEWS */
+.top-news{
+    /*display: flex;
+    flex-direction: column;*/
+    margin-right: 1.5em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1em 1em 1em 1em;
+}
+.top-news-title{
+    font-family: Arial;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 2.5em;
 }
 
 .article{
     display: flex;
     flex-direction: row;
+    justify-items: center;
+    align-content: flex-start;
     align-items: center;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
+.article-img{
+    margin-right: 2em;
+    padding: 1em 1em 1em 1em;
 }
 
 .article-text{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 1em;
+    padding: 1em 1em 1em 1em;
+    /*    padding: 10px 16px 16px 16px;*/
+}
+
+.article-title{
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 2em;
+}
+
+.article-date {
+    display: flex;
+    align-items: flex-start;
+    color: dimgray;
+    text-align: left;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 0.8em;
+}
+.article-description{
+    text-indent: 2em;
+}
+
+
+
+/*POOL*/
+.pool{
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1em 1em 1em 1em;
+}
+
+.pool-title{
+    font-family: Arial;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.pool-question{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-family: Times New Roman;
+    font-size: 2em;
+}
+
+.pool-question-answers{
+    padding: 1em 1em 1em 1em;
 }
