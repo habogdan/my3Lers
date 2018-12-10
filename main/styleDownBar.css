@@ -10,14 +10,12 @@
 }
 
 .big-img-list1-up{
-    list-style-type: none;
     display: flex;
     flex-direction: row;
 }
 
 .big-img-list1-down{
-    list-style-type: none;
-    display: flex;
+    margin-top: 16px;
 }
 
 .big-img-zone-right{
@@ -26,36 +24,26 @@
 }
 
 .big-img-list2-up{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
 }
 
 .big-img-list2-down{
-    list-style-type: none;
     display: flex;
+    flex-direction: row;
 }
 
-.first-img{
-    position: relative;
-}
-.second-img{
-    position: relative;
-}
-.third-img{
-    position: relative;
-}
-.fourth-img{
-    position: relative;
-}
+
 
 .text-img{
-    position: absolute;
+    margin-top: -2em;
+    padding-left: 1em;
     color: #fff;
     text-shadow: 1px 1px 0 #000;
     display: block;
     text-decoration: none;
+    font-size: 1.5em;
+    font-family: Georgia;
+    font-weight: bold;
 }
 
 /*TOP NEWS */
@@ -126,9 +114,10 @@
 
 /*POOL*/
 .pool{
-
+    width: 38em;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     padding: 1em 1em 1em 1em;
+
 }
 
 .pool-title{
@@ -143,9 +132,31 @@
     text-align: left;
     text-decoration: none;
     font-family: Times New Roman;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .pool-question-answers{
     padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.pool-button{
+    box-sizing:border-box;
+    border-radius: 4px;
+    background: black;
+    border: none;
+    padding: 0.8em 1.25em;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+
