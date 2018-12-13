@@ -19,7 +19,7 @@ body {
 
 }
 
-.down_portion{
+.down_portion-main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,3 +33,17 @@ figure{
     padding: 0;
 }
 
+.down_portion-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    margin-top: 5em;
+    margin-left: 9em;
+    margin-right: 9em;
+    margin-bottom: 10em;
+
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
