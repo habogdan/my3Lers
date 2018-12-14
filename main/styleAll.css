@@ -47,3 +47,18 @@ figure{
 
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.down_portion-content-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    margin-top: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-bottom: 10em;
+
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
