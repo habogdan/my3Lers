@@ -22,11 +22,14 @@ body {
 .down_portion-main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    margin-left: 9em;
-    margin-right: 9em;
+    margin-left: 6em;
+    margin-right: 6em;
     margin-bottom: 10em;
+
+
 }
 figure{
     margin: 0;
@@ -40,8 +43,8 @@ figure{
     justify-items: center;
 
     margin-top: 5em;
-    margin-left: 9em;
-    margin-right: 9em;
+    margin-left: 7em;
+    margin-right: 7em;
     margin-bottom: 10em;
 
 
@@ -55,8 +58,8 @@ figure{
     justify-items: center;
 
     margin-top: 5em;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 10em;
+    margin-right: 10em;
     margin-bottom: 10em;
 
 
