@@ -33,11 +33,17 @@
     justify-items: center;
 }
 
-.content-text{
-    width: 225px;
+.content-all{
     display: flex;
     flex-direction: column;
     margin: 1em;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+    height: 250px;
+
 }
 .content-text-people{
     width: 400px;
@@ -74,4 +80,21 @@
 
 .content-title:hover{
     color: darkblue;
+}
+
+.add-button{
+    box-sizing:border-box;
+    border-radius: 4px;
+    background: black;
+    border: none;
+    padding: 0.8em 1.25em;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }

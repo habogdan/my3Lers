@@ -36,7 +36,7 @@
                     <a href="../main/people.html">PEOPLE</a>
                 </li>
                 <li class="hover">
-                    <a href="/mywhatchlist">MY WATCH LIST</a>
+                    <a href="../main/my-watch-list.html">MY WATCH LIST</a>
                 </li>
             </ul>
         </div>
@@ -58,17 +58,20 @@
                 <div class="content-img">
                     <img src="../main/img-movies/venom.jpg" alt="Venom" height="300em" width="200em">
                 </div>
-                <div class="content-text">
-                    <a href="/venom">
-                        <h1 class="content-title">Venom</h1>
-                    </a>
-                    <h2 class="content-date">October 5, 2018</h2>
-                    <p class="content-description">
-                        Eddie Brock is a reporter—investigating people who want to go unnoticed. But after he makes
-                        a terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The
-                        Foundation
-                        has discovered creatures…
-                    </p>
+                <div class="content-all">
+                    <div class="content-text">
+                        <a href="/venom">
+                            <h1 class="content-title">Venom</h1>
+                        </a>
+                        <h2 class="content-date">October 5, 2018</h2>
+                        <p class="content-description">
+                            Eddie Brock is a reporter—investigating people who want to go unnoticed. But after he makes
+                            a terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The
+                            Foundation
+                            has discovered creatures…
+                        </p>
+                    </div>
+                    <button class="add-button" onclick=addMovies(this)>ADD TO WATCH LIST</button>
                 </div>
             </div>
 
@@ -76,16 +79,23 @@
                 <div class="content-img">
                     <img src="../main/img-movies/aquaman.jpg" alt="Aquaman" height="300em" width="200em">
                 </div>
-                <div class="content-text">
-                    <a href="/aquaman">
-                        <h1 class="content-title">Aquaman</h1>
-                    </a>
-                    <h2 class="content-date">December 21, 2018</h2>
-                    <p class="content-description">
-                        The film reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him on
-                        the journey of his lifetime—one that will not only force him to face who he really is, but to
-                        discover if he is worthy…
-                    </p>
+                <div class="content-all">
+                    <div class="content-text">
+                        <a href="/aquaman">
+                            <h1 class="content-title">Aquaman</h1>
+                        </a>
+                        <h2 class="content-date">December 21, 2018</h2>
+                        <p class="content-description">
+                            The film reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him
+                            on
+                            the journey of his lifetime—one that will not only force him to face who he really is, but
+                            to
+                            discover if he is worthy…
+                        </p>
+                    </div>
+                    <button class="add-button" type="submit" onclick="alert('Added to your watch list')">
+                        ADD TO WATCH LIST
+                    </button>
                 </div>
             </div>
 
@@ -95,18 +105,24 @@
 
             <div class="content">
                 <div class="content-img">
-                    <img src="../main/img-movies/fantastic-beasts.jpg" alt="Fantastic Beasts" height="300em" width="200em">
+                    <img src="../main/img-movies/fantastic-beasts.jpg" alt="Fantastic Beasts" height="300em"
+                         width="200em">
                 </div>
-                <div class="content-text">
-                    <a href="/fantastic-beasts">
-                        <h1 class="content-title">Fantastic Beasts: <br/>The Crimes of Grindelwald</h1>
-                    </a>
-                    <h2 class="content-date">November 16, 2018</h2>
-                    <p class="content-description">
-                        Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his
-                        cause—elevating wizards above all non-magical beings. The only one capable of putting a stop
-                        to him is the wizard he once called…
-                    </p>
+                <div class="content-all">
+                    <div class="content-text">
+                        <a href="/fantastic-beasts">
+                            <h1 class="content-title">Fantastic Beasts: <br/>The Crimes of Grindelwald</h1>
+                        </a>
+                        <h2 class="content-date">November 16, 2018</h2>
+                        <p class="content-description">
+                            Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his
+                            cause—elevating wizards above all non-magical beings. The only one capable of putting a stop
+                            to him is the wizard he once called…
+                        </p>
+                    </div>
+                    <button class="add-button" type="submit" onclick="alert('Added to your watch list')">
+                        ADD TO WATCH LIST
+                    </button>
                 </div>
             </div>
 
@@ -114,16 +130,22 @@
                 <div class="content-img">
                     <img src="../main/img-movies/mortan-engines.jpg" alt="Mortal Engines" height="300em" width="200em">
                 </div>
-                <div class="content-text">
-                    <a href="/mortal-engines">
-                        <h1 class="content-title">Mortal Engines</h1>
-                    </a>
-                    <h2 class="content-date">December 14, 2018</h2>
-                    <p class="content-description">
-                        Set in a world many thousands of years in the future. Earth’s cities now roam the globe on huge
-                        wheels, devouring each other in a struggle for ever diminishing resources. On one of these
-                        massive Traction Cities…
-                    </p>
+                <div class="content-all">
+                    <div class="content-text">
+                        <a href="/mortal-engines">
+                            <h1 class="content-title">Mortal Engines</h1>
+                        </a>
+                        <h2 class="content-date">December 14, 2018</h2>
+                        <p class="content-description">
+                            Set in a world many thousands of years in the future. Earth’s cities now roam the globe on
+                            huge
+                            wheels, devouring each other in a struggle for ever diminishing resources. On one of these
+                            massive Traction Cities…
+                        </p>
+                    </div>
+                    <button class="add-button" type="submit" onclick="alert('Added to your watch list')">
+                        ADD TO WATCH LIST
+                    </button>
                 </div>
             </div>
 
@@ -134,4 +156,7 @@
 
 
 </body>
+
+<script src="myMovies.js"></script>
+
 </html>
