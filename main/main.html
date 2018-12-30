@@ -21,7 +21,7 @@
             <ul class="primary">
                 <li class="logo">
                     <a href="../main/main.html">
-                        <img src="logo.jpg" alt="my3Lers Logo" height="80px" width="80px">
+                        <img class="logo-img" src="logo.jpg" alt="my3Lers Logo">
                     </a>
                 </li>
                 <li class="hover">
@@ -52,13 +52,13 @@
                 <div class="big-img-list1-up">
                     <div class="first-img">
                         <figure>
-                            <img src="../main/img-main/deadpool.jpg" alt="Deadpool" height="160em" width="300em">
+                            <img class="small-img-size" src="../main/img-main/deadpool.jpg" alt="Deadpool">
                             <figcaption class="text-img">Deadpool</figcaption>
                         </figure>
                     </div>
                     <div class="second-img">
                         <figure>
-                            <img src="../main/img-main/aquaman.jpg" alt="Aquaman" height="160em" width="300em">
+                            <img class="small-img-size" src="../main/img-main/aquaman.jpg" alt="Aquaman">
                             <figcaption class="text-img">Aquaman</figcaption>
                         </figure>
                     </div>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="big-img-list1-down">
                     <figure>
-                        <img src="../main/img-main/gotham.jpg" alt="Gotham" height="320em" width="600em">
+                        <img class="big-img-size" src="../main/img-main/gotham.jpg" alt="Gotham">
                         <figcaption class="text-img">Gotham</figcaption>
                     </figure>
                 </div>
@@ -74,20 +74,20 @@
             <div class="big-img-zone-right">
                 <div class="big-img-list2-up">
                     <figure>
-                        <img src="../main/img-main/vikings.jpg" alt="Vikings" height="320em" width="600em">
+                        <img class="big-img-size" src="../main/img-main/vikings.jpg" alt="Vikings">
                         <figcaption class="text-img">Vikings</figcaption>
                     </figure>
                 </div>
                 <div class="big-img-list2-down">
                     <div class="third-img">
                         <figure>
-                            <img src="../main/img-main/advangers.jpg" alt="Advangers" height="160em" width="300em">
+                            <img class="small-img-size" src="../main/img-main/advangers.jpg" alt="Advangers">
                             <figcaption class="text-img">Advangers</figcaption>
                         </figure>
                     </div>
                     <div class="fourth-img">
                         <figure>
-                            <img src="../main/img-main/lost-in-space.jpg" alt="Lost in Space" height="160em" width="300em">
+                            <img class="small-img-size" src="../main/img-main/lost-in-space.jpg" alt="Lost in Space">
                             <figcaption class="text-img">Lost in Space</figcaption>
                         </figure>
                     </div>
@@ -105,7 +105,7 @@
             <div class="articles-news">
                 <div class="article">
                     <div class="article-img">
-                        <img src="../main/img-main/stan-lee.jpg" alt="Stan Lee" height="250em" width="400em">
+                        <img class="article-img-img" src="../main/img-main/stan-lee.jpg" alt="Stan Lee">
                     </div>
                     <div class="article-text">
                         <h1 class="article-title">Marvel Comics' Real-Life Superhero</h1>
@@ -120,7 +120,7 @@
 
                 <div class="article">
                     <div class="article-img">
-                        <img src="../main/img-main/got.jpg" alt="Game of Thrones Season 8" height="250em" width="400em">
+                        <img class="article-img-img" src="../main/img-main/got.jpg" alt="Game of Thrones Season 8">
                     </div>
                     <div class="article-text">
                         <h1 class="article-title">Game of Thrones reunion </h1>
@@ -140,25 +140,55 @@
 
             <div class="pool-question-answers">
                 <h1 class="pool-question">Who is your favourite character in<br/>Game of Thrones?</h1>
-                <ul class="question-answers-radio">
+                <form class="question-answers-radio" onsubmit="checkIfChecked()" method="post">
+                    <label>
+                        <input type="radio" name="answer" required>
+                        Eddard 'Ned' Stark
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Tyrion Lannister
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Cersei Lannister
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Daenerys Targaryen
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Jon Snow
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Sansa Stark
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Arya Stark
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Jaime Lannister
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Jorah Mormont
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Theon Greyjoy
+                    </label>
+                    <label>
+                        <input type="radio" name="answer">
+                        Samwell Tarly
+                    </label>
 
-                    <input type="radio" name="gender" value="male"> Eddard 'Ned' Stark<br>
-                    <input type="radio" name="gender" value="male"> Tyrion Lannister<br>
-                    <input type="radio" name="gender" value="male"> Cersei Lannister<br>
-                    <input type="radio" name="gender" value="male"> Daenerys Targaryen<br>
-                    <input type="radio" name="gender" value="male"> Jon Snow<br>
-                    <input type="radio" name="gender" value="male"> Sansa Stark<br>
-                    <input type="radio" name="gender" value="male"> Arya Stark<br>
-                    <input type="radio" name="gender" value="male"> Jaime Lannister<br>
-                    <input type="radio" name="gender" value="male"> Jorah Mormont<br>
-                    <input type="radio" name="gender" value="male"> Theon Greyjoy<br>
-                    <input type="radio" name="gender" value="male"> Samwell Tarly<br>
+                    <input class="pool-button" type="submit" value="VOTE">
+                </form>
 
-                </ul>
-
-                <button class="pool-button" type="submit" onclick="alert('Thank you for your vote.')">
-                    Vote
-                </button>
 
 
             </div>
@@ -168,6 +198,6 @@
 
 </div>
 
-
+<script src="myMovies.js"></script>
 </body>
 </html>

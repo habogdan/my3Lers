@@ -32,7 +32,14 @@
     flex-direction: row;
 }
 
-
+.small-img-size{
+    height: 160px;
+    width: 300px;
+}
+.big-img-size{
+    height: 320px;
+    width: 600px;
+}
 
 .text-img{
     margin-top: -2em;
@@ -80,6 +87,11 @@
 .article-img{
     margin-right: 2em;
     padding: 1em 1em 1em 1em;
+}
+
+.article-img-img{
+    height: 250px;
+    width: 400px;
 }
 
 .article-text{
@@ -146,6 +158,10 @@
     align-items: center;
 }
 
+.question-answers-radio{
+    display: flex;
+    flex-direction: column;
+}
 .pool-button{
     box-sizing:border-box;
     border-radius: 4px;

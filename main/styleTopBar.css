@@ -28,7 +28,10 @@
     align-items: center;
 }
 
-
+.logo-img{
+    height: 80px;
+    width: 80px;
+}
 
 .search-box {
     background: #2f3640;
