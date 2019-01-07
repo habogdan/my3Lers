@@ -1,7 +1,6 @@
 /*BID IMG */
 .big-img-parts{
     display: flex;
-    flex-direction: row;
 }
 
 .big-img-zone-left{

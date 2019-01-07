@@ -5,11 +5,7 @@
     text-decoration: underline;
     font-size: 2.5em;
 }
-.my-watch-list-content{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
+
 
 .row-content{
     display: flex;
@@ -77,6 +73,15 @@
     font-size: 1.2em;
     margin-bottom: -0.1em;
 }
+.content-title-people{
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Times New Roman;
+    font-size: 2em;
+    margin-bottom: -0.1em;
+}
 
 .content-date{
     color: dimgray;
@@ -98,6 +103,9 @@
 .content-title:hover{
     color: darkblue;
 }
+.content-title-people:hover{
+    color: darkblue;
+}
 
 .add-button{
     box-sizing:border-box;
@@ -114,4 +122,87 @@
     text-transform: uppercase;
     margin-bottom: 1em;
     margin-top: 1em;
+}
+
+/*My watch list*/
+
+.created-top-list{
+    display: none;
+    text-align: center;
+}
+
+.my-top-list-text{
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+.my-watch-list-content{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    padding: 1em;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.my-top-list{
+    margin: auto;
+}
+
+.top-list{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+}
+
+.category-title-top-list{
+    margin-left: 1em;
+    font-family: Arial;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.delete-button{
+    box-sizing:border-box;
+    border-radius: 4px;
+    background: red;
+    border: none;
+    padding: 0.8em 1.25em;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 9em;
+}
+
+.save-button{
+    box-sizing:border-box;
+    border-radius: 4px;
+    background: green;
+    border: none;
+    padding: 0.8em 1.25em;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 9em;
 }

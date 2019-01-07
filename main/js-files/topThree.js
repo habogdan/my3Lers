@@ -33,7 +33,7 @@ function getJSON(url) {
     return get(url).then(JSON.parse);
 }
 
-let myContentPromis = getJSON("JSON.json");
+let myContentPromis = getJSON("../js-files/JSON.json");
 myContentPromis.then(function(myContent){
 
     for (let i = 0; i < 3; i++) {

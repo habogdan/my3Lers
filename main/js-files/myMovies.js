@@ -11,6 +11,18 @@ function addMovies(btn) {
     }
 }
 
+function addTopList() {
+    document.getElementById("my-top-list-test-id").style.display = "block";
+}
+
+function deleteTopList() {
+    document.getElementById("my-top-list-test-id").style.display = "none";
+}
+
+function saveTopList() {
+
+}
+
 function checkIfChecked() {
     let poolAnswer = document.getElementsByName('answer');
     for ( let i = 0; i < poolAnswer.length; i++) {

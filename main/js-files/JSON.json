@@ -7,7 +7,7 @@
                 "description": "Eddie Brock is a reporter—investigating people who want to go unnoticed. But after he makes a terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The Foundation has discovered creatures…",
                 "date": "October 5, 2018",
                 "aTag": "/venom",
-                "imgSrc": "../main/img-movies/venom.jpg",
+                "imgSrc": "../img-movies/venom.jpg",
                 "imgAlt": "Venom"
             },
             {
@@ -17,7 +17,7 @@
                 "description": "The film reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him on the journey of his lifetime—one that will not only force him to face who he really is, but  to discover if he is worthy…",
                 "date": "December 21, 2018",
                 "aTag": "/aquaman",
-                "imgSrc": "../main/img-movies/aquaman.jpg",
+                "imgSrc": "../img-movies/aquaman.jpg",
                 "imgAlt": "Aquaman"
             },
             {
@@ -27,7 +27,7 @@
                 "description": "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called…",
                 "date": "November 16, 2018",
                 "aTag": "/fantastic-beasts",
-                "imgSrc": "../main/img-movies/fantastic-beasts.jpg",
+                "imgSrc": "../img-movies/fantastic-beasts.jpg",
                 "imgAlt": "Fantastic Beasts"
             },
             {
@@ -37,7 +37,7 @@
                 "description": "Set in a world many thousands of years in the future. Earth’s cities now roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive Traction Cities…",
                 "date": "December 14, 2018",
                 "aTag": "/mortal-engines",
-                "imgSrc": "../main/img-movies/venom.jpg",
+                "imgSrc": "../img-movies/venom.jpg",
                 "imgAlt": "Mortal Engines"
             }
         ],

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my3Lers</title>
+
+    <link href="../css-files/styleTopBar.css" rel="stylesheet">
+    <link href="../css-files/styleDownBar.css" rel="stylesheet">
+    <link href="../css-files/styleALL.css" rel="stylesheet">
+    <link href="../css-files/styleContent.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="all">
+
+    <div class="upper_portion">
+
+        <div class="left">
+            <ul class="primary">
+                <li class="logo">
+                    <a href="../html-files/main.html">
+                        <img class="logo-img" src="../img-main/logo.jpg" alt="my3Lers Logo">
+                    </a>
+                </li>
+                <li class="hover">
+                    <a href="../html-files/movies.html">MOVIES</a>
+                </li>
+                <li class="hover">
+                    <a href="../html-files/series&shows.html">SERIES & SHOWS</a>
+                </li>
+                <li class="hover">
+                    <a href="../html-files/people.html">PEOPLE</a>
+                </li>
+                <li class="hover">
+                    <a href="../html-files/my-watch-list.html">MY WATCH LIST</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input class="search-txt" type="text" placeholder="Search..">
+            <a class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="down_portion-content-watch-list">
+
+        <div class="my-watch-list-content">
+            <h1 class="category-title">MY WHATCH LIST</h1>
+        </div>
+
+        <div class="top-list">
+            <h1 class="category-title">TOP LIST</h1>
+
+            <div class="site-top-list" id="topList">
+            </div>
+
+            <div class="my-top-list">
+                <button class="add-button" onclick=addTopList()>CREATE YOUR TOP LIST</button>
+                <div class="created-top-list" id="my-top-list-test-id">
+                    <form class="my-top-list-text" onsubmit="saveTopList()">
+                        First place:<br>
+                        <input class="text-box" type="text" name="firstPlace"><br>
+                        Secound place:<br>
+                        <input class="text-box" type="text" name="secoundPlace"><br>
+                        Third place:<br>
+                        <input class="text-box" type="text" name="thirdPlace"><br>
+                        <button class="save-button" type="submit">SAVE <i class="fa fa-save"></i></button>
+                    </form>
+                    <button class="delete-button" onclick=deleteTopList()>DELETE <i class="fa fa-close"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="../js-files/topThree.js"></script>
+<script src="../js-files/myMovies.js"></script>
+</body>
+</html>
