@@ -139,6 +139,15 @@
     margin: 0.5em;
 }
 
+.my-top-list-text-created{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
 .my-watch-list-content{
     display: flex;
     flex-direction: row;
@@ -148,6 +157,10 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.my-top-list-created{
+    text-align: center;
+}
+
 .my-top-list{
     margin: auto;
 }
@@ -155,6 +168,7 @@
 .top-list{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 550px;
     padding: 1em;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -184,6 +198,24 @@
     text-transform: uppercase;
     margin-bottom: 1em;
     margin-top: 1em;
+    text-align: center;
+    width: 9em;
+}
+
+.hide-button{
+    box-sizing:border-box;
+    border-radius: 4px;
+    background: #cccccc;
+    border: none;
+    padding: 0.8em 1.25em;
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
     text-align: center;
     width: 9em;
 }

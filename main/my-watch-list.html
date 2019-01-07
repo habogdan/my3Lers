@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>my3Lers</title>
 
-    <link href="../css-files/styleTopBar.css" rel="stylesheet">
-    <link href="../css-files/styleDownBar.css" rel="stylesheet">
-    <link href="../css-files/styleALL.css" rel="stylesheet">
-    <link href="../css-files/styleContent.css" rel="stylesheet">
+    <link href="css-files/styleTopBar.css" rel="stylesheet">
+    <link href="css-files/styleDownBar.css" rel="stylesheet">
+    <link href="css-files/styleALL.css" rel="stylesheet">
+    <link href="css-files/styleContent.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -23,21 +23,21 @@
         <div class="left">
             <ul class="primary">
                 <li class="logo">
-                    <a href="../html-files/main.html">
-                        <img class="logo-img" src="../img-main/logo.jpg" alt="my3Lers Logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="img-main/logo.jpg" alt="my3Lers Logo">
                     </a>
                 </li>
                 <li class="hover">
-                    <a href="../html-files/movies.html">MOVIES</a>
+                    <a href="movies.html">MOVIES</a>
                 </li>
                 <li class="hover">
-                    <a href="../html-files/series&shows.html">SERIES & SHOWS</a>
+                    <a href="series&shows.html">SERIES & SHOWS</a>
                 </li>
                 <li class="hover">
-                    <a href="../html-files/people.html">PEOPLE</a>
+                    <a href="people.html">PEOPLE</a>
                 </li>
                 <li class="hover">
-                    <a href="../html-files/my-watch-list.html">MY WATCH LIST</a>
+                    <a href="my-watch-list.html">MY WATCH LIST</a>
                 </li>
             </ul>
         </div>
@@ -63,19 +63,29 @@
 
             <div class="my-top-list">
                 <button class="add-button" onclick=addTopList()>CREATE YOUR TOP LIST</button>
+
                 <div class="created-top-list" id="my-top-list-test-id">
                     <form class="my-top-list-text" onsubmit="saveTopList()">
                         First place:<br>
-                        <input class="text-box" type="text" name="firstPlace"><br>
+                        <input class="text-box" id="firstItem" type="text" name="firstPlace" required><br>
                         Secound place:<br>
-                        <input class="text-box" type="text" name="secoundPlace"><br>
+                        <input class="text-box" id="secoundItem" type="text" name="secoundPlace" required><br>
                         Third place:<br>
-                        <input class="text-box" type="text" name="thirdPlace"><br>
+                        <input class="text-box" id="thirdItem" type="text" name="thirdPlace" required><br>
                         <button class="save-button" type="submit">SAVE <i class="fa fa-save"></i></button>
                     </form>
-                    <button class="delete-button" onclick=deleteTopList()>DELETE <i class="fa fa-close"></i></button>
+                    <button class="hide-button" id="hide-button" onclick=hideTopList()>HIDE <i class="fa fa-close"></i></button>
                 </div>
+
+
             </div>
+            <div class="my-top-list-created">
+                <div class="my-top-list-text-created" id="created-class">
+
+                </div>
+                <button class="delete-button" id="delete-button" onclick=deleteTopList()>DELETE <i class="fa fa-trash"></i></button>
+            </div>
+
         </div>
 
     </div>
@@ -83,7 +93,8 @@
 
 </div>
 
-<script src="../js-files/topThree.js"></script>
-<script src="../js-files/myMovies.js"></script>
+<script src="js-files/topThree.js"></script>
+<script src="js-files/myMovies.js"></script>
+<script>createMyTopList();</script>
 </body>
 </html>
