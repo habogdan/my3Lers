@@ -1,47 +1,84 @@
 {
-        "movies": [
-            {
-                "id": 1,
-                "title": "Venom",
-                "onWatchList": 0,
-                "description": "Eddie Brock is a reporter—investigating people who want to go unnoticed. But after he makes a terrible discovery at the Life Foundation, he begins to transform into ‘Venom’. The Foundation has discovered creatures…",
-                "date": "October 5, 2018",
-                "aTag": "/venom",
-                "imgSrc": "img-movies/venom.jpg",
-                "imgAlt": "Venom"
-            },
-            {
-                "id": 2,
-                "title": "Aquaman",
-                "onWatchList": 0,
-                "description": "The film reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him on the journey of his lifetime—one that will not only force him to face who he really is, but  to discover if he is worthy…",
-                "date": "December 21, 2018",
-                "aTag": "/aquaman",
-                "imgSrc": "img-movies/aquaman.jpg",
-                "imgAlt": "Aquaman"
-            },
-            {
-                "id": 3,
-                "title": "Fantastic Beasts: The Crimes of Grindelwald",
-                "onWatchList": 0,
-                "description": "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called…",
-                "date": "November 16, 2018",
-                "aTag": "/fantastic-beasts",
-                "imgSrc": "img-movies/fantastic-beasts.jpg",
-                "imgAlt": "Fantastic Beasts"
-            },
-            {
-                "id": 4,
-                "title": "Mortal Engines",
-                "onWatchList": 0,
-                "description": "Set in a world many thousands of years in the future. Earth’s cities now roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive Traction Cities…",
-                "date": "December 14, 2018",
-                "aTag": "/mortal-engines",
-                "imgSrc": "img-movies/venom.jpg",
-                "imgAlt": "Mortal Engines"
-            }
-        ],
-        "serial": [
-
-        ]
+  "movies": [
+    {
+      "id": 1,
+      "title": "Venom",
+      "onWatchList": 0,
+      "description": "Eddie Brock is a reporter\u2014investigating people who want to go unnoticed. But after he makes a terrible discovery at the Life Foundation, he begins to transform into \u2018Venom\u2019. The Foundation has discovered creatures\u2026",
+      "date": "October 5, 2018",
+      "aTag": "\/venom",
+      "imgSrc": "img-movies\/venom.jpg",
+      "imgAlt": "Venom"
+    },
+    {
+      "id": 2,
+      "title": "Aquaman",
+      "onWatchList": 0,
+      "description": "The film reveals the origin story of half-human, half-Atlantean Arthur Curry and takes him on the journey of his lifetime\u2014one that will not only force him to face who he really is, but  to discover if he is worthy\u2026",
+      "date": "December 21, 2018",
+      "aTag": "\/aquaman",
+      "imgSrc": "img-movies\/aquaman.jpg",
+      "imgAlt": "Aquaman"
+    },
+    {
+      "id": 3,
+      "title": "Fantastic Beasts: The Crimes of Grindelwald",
+      "onWatchList": 0,
+      "description": "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause\u2014elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called\u2026",
+      "date": "November 16, 2018",
+      "aTag": "\/fantastic-beasts",
+      "imgSrc": "img-movies\/fantastic-beasts.jpg",
+      "imgAlt": "Fantastic Beasts"
+    },
+    {
+      "id": 4,
+      "title": "Mortal Engines",
+      "onWatchList": 0,
+      "description": "Set in a world many thousands of years in the future. Earth\u2019s cities now roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive Traction Cities\u2026",
+      "date": "December 14, 2018",
+      "aTag": "\/mortal-engines",
+      "imgSrc": "img-movies\/mortan-engines.jpg",
+      "imgAlt": "Mortal Engines"
+    },
+    {
+      "id": 5,
+      "title": "Gotham",
+      "onWatchList": 0,
+      "description": "Before there was Batman, there was GOTHAM. Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known\u2026",
+      "date": "September 22, 2014",
+      "aTag": "\/gotham",
+      "imgSrc": "img-series&shows\/gotham.jpg",
+      "imgAlt": "Gotham"
+    },
+    {
+      "id": 6,
+      "title": "Vikings",
+      "onWatchList": 0,
+      "description": "Vikings follows the adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As\u2026",
+      "date": "November 29, 2018",
+      "aTag": "\/vikings",
+      "imgSrc": "img-series&shows\/vikings.jpg",
+      "imgAlt": "Vikings"
+    },
+    {
+      "id": 7,
+      "title": "Game of Thrones",
+      "onWatchList": 0,
+      "description": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected\u2026",
+      "date": "April 27, 2018",
+      "aTag": "\/game-of-thrones",
+      "imgSrc": "img-series&shows\/game-of-thrones.jpg",
+      "imgAlt": "Game of Thrones"
+    },
+    {
+      "id": 8,
+      "title": "Westworld",
+      "onWatchList": 0,
+      "description": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter\u2026",
+      "date": "October 2, 2016",
+      "aTag": "\/westworld",
+      "imgSrc": "img-series&shows\/westworld.jpg",
+      "imgAlt": "Westworld"
+    }
+  ]
 }
